@@ -1,276 +1,248 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset"UTF-8">
 	<title>Mi primer sitio</title>
+	<link rel="stylesheet" href="css/styles1.css">
 </head>
 <body>
+	
 	<header>
 		<img src="materiales\images\header-logo.png">
-		<nav>
+		<nav class="menu-inicial">
 			<ul>
-				<li>
-					<a href="">Home</a>
-				</li>
-				<li>
-					<a href="">Contact</a>
-				</li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
-		<article>
-			<img src="materiales\images\indexbanner-bg3.jpg" alt="banner1" width="1200">
-			<span>
+	<section class="contenedor-inicial">
+		<article class="wrapper">
+			<article class="updates">
 				<h3>Regular Updates</h3>
 				<p>Lorem ipsum dolor sit amen, consectetur adipisicing elit. Preferendis quae sapiente</p>
-			</span>
+			</article>
 			<form>
-				<label>
-					<input type="text" placeholder="Enter your domain name and hit enter">
-				</label>
-				<label>
-					<input type="submit" value="Search">
-					<!--faltaria el simbolo de la lupa-->
-				</label>
+				<input type="serch" placeholder="Enter your domain name and hit enter">
+				<input type="submit" value="Search">
 			</form>
+			
+			<section class="servicios-destacos">
+				<article>
+					<img src="materiales\images\wid1.png" alt="logo velocimetro">
+					<h2>SPEED SERVERS<h2>
+					<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
+				</article>
+				
+				<article>
+					<img src="materiales\images\wid2.png" alt="tablero">
+					<h2>HOSTRO SERVICES<h2>
+					<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
+				</article>
+				
+				<article>
+					<img src="materiales\images\wid3.png" alt="cuadro de dialogo">
+					<h2>LIVE SUPPORT<h2>
+					<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
+				</article>
+				
+				<article>
+					<img src="materiales\images\wid4.png" alt="check Id">
+					<h2>GET DOMAIN NAME<h2>
+					<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
+				</article>
+			</section>
+			
+
+			<section class="services">
+				<h2>Hostro Services</h2>
+				<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+				
+				<section class="caracteristicas">
+					<article>
+						<img src="materiales\images\ser1.png" alt="icono imagen">
+						<h3>RETINA READY</h3>
+						<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti</p>
+					</article>
+					
+					<article>
+						<img src="materiales\images\ser2.png" alt="icono palanca de cambios">
+						<h3>EASY COSTUMIZE</h3>
+						<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti</p>
+					</article>
+					
+					<article>
+						<img src="materiales\images\ser3.png" alt="icono corazon">
+						<h3>PIXEL PERFECT</h3>
+						<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti</p>
+					</article>
+				</section>
+				
+				<figure class="imagen-mitad">
+					<img src="materiales/images/iphone2.png" alt="iphone2">
+				</figure>
+				
+				<section class="caracteristicas">	
+					<article>
+						<h3>UNLIMITED COLORS</h3>
+						<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti</p>
+						<img src="materiales\images\ser1.png" alt="icono mira">
+					</article>
+				
+					<article>
+						<h3>FEATURES</h3>
+						<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti</p>
+						<img src="materiales\images\ser1.png" alt="icono liston">
+					</article>
+				
+					<article>
+						<h3>SUPPORT TODAY</h3>
+						<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti</p>
+						<img src="materiales\images\ser1.png" alt="icono reloj">
+					</article>
+				</section>	
+			</section>
+			<br>
+			<br>
+			<br>
+			<section class="tabla-precios">
+				<h2>Pricing Tables</h2>
+				<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+					<br>
+					<br>
+					<article class="tabla">
+						<p>SMALL PACKAGE</p>
+						<p>$<span>15</span>.9</p>
+						<p>/month</p>
+						<table>
+						    <tr>
+						      <td>Hard Drive GB</td>
+						      <td>2</td>
+							</tr>
+						    <tr>
+						      <td>Tranfer GB</td>
+						      <td>1</td>
+						    </tr>
+						    <tr>
+						      <td>Data Bases</td>
+						      <td>1</td>
+						    </tr>
+						    <tr>
+						      <td>Dashboards</td>
+						      <td>1</td>
+						    </tr>
+						</table>
+						<br>
+						<br>
+						<a href="">SELECT PLAN</a>
+					</article>
+					<br>
+					<br>
+					<article class="tabla">
+						<p>NORMAL PACKAGE</p>
+						<p>$<span>45</span>.9</p>
+						<p>/month</p>
+						<table>
+						    <tr>
+						      <td>Hard Drive GB</td>
+						      <td>5</td>
+							</tr>
+						    <tr>
+						      <td>Tranfer GB</td>
+						      <td>2</td>
+						    </tr>
+						    <tr>
+						      <td>Data Bases</td>
+						      <td>2</td>
+						    </tr>
+						    <tr>
+						      <td>Dashboards</td>
+						      <td>2</td>
+						    </tr>
+						</table>
+						<br>
+						<br>
+						<a href="">SELECT PLAN</a>
+					</article>
+					<br>
+					<br>
+					<article class="tabla">
+						<p>BIG PACKAGE</p>
+						<p>$<span>95</span>.9</p>
+						<p>/month</p>
+						<table>
+						    <tr>
+						      <td>Hard Drive GB</td>
+						      <td>12</td>
+							</tr>
+						    <tr>
+						      <td>Tranfer GB</td>
+						      <td>5</td>
+						    </tr>
+						    <tr>
+						      <td>Data Bases</td>
+						      <td>5</td>
+						    </tr>
+						    <tr>
+						      <td>Dashboards</td>
+						      <td>5</td>
+						    </tr>
+						</table>
+						<br>
+						<br>
+						<a href="">SELECT PLAN</a>
+					</article>
+					<br>
+					<br>
+					<article class="tabla">
+						<p>BIG PACKAGE</p>
+						<p>$<span>115</span>.9</p>
+						<p>/month</p>
+						<table>
+						    <tr>
+						      <td>Hard Drive GB</td>
+						      <td>20</td>
+							</tr>
+						    <tr>
+						      <td>Tranfer GB</td>
+						      <td>20</td>
+						    </tr>
+						    <tr>
+						      <td>Data Bases</td>
+						      <td>20</td>
+						    </tr>
+						    <tr>
+						      <td>Dashboards</td>
+						      <td>20</td>
+						    </tr>
+						</table>
+						<br>
+						<br>
+						<a href="">SELECT PLAN</a>
+					</article>
+			</section>
 		</article>
-	<br>
-	<br>
-	<br>
-	<section>
-		<article>
-			<img src="materiales\images\wid1.png" alt="logo velocimetro">
-			<br>
-			<span>
-				SPEED SERVERS
-			</span>
-			<br>
-			<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
-		</article>
-		<br>
-		<article>
-			<img src="materiales\images\wid2.png" alt="tablero">
-			<br>
-			<span>
-				HOSTRO SERVICES
-			</span>
-			<br>
-			<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
-		</article>
-		<br>
-		<article>
-			<img src="materiales\images\wid3.png" alt="cuadro de dialogo">
-			<br>
-			<span>
-				LIVE SUPPORT
-			</span>
-			<br>
-			<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
-		</article>
-		<br>
-		<article>
-			<img src="materiales\images\wid4.png" alt="check Id">
-			<br>
-			<span>
-				GET DOMAIN NAME
-			</span>
-			<br>
-			<p>Mauris vehicula feliz vulputate velit semper, nec mollis nisi aliquam</p>
-		</article>
-	</section>
-	<br>
-	<br>
-	<br>
-	<section>
-		<h1>Hostro Services</h1>
-		<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
-		<br>
-		<br>
-				<article>
-					<span>RETINA READY</span>
-					<br>
-					<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti
-					<img src="materiales\images\ser1.png" alt="icono imagen"></p>
-				</article>
-				<br>
-				<article>
-					<span>EASY COSTUMIZE</span>
-					<br>
-					<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti
-					<img src="materiales\images\ser2.png" alt="icono palanca de cambios"></p>
-				</article>
-				<br>
-				<article>
-					<span>PIXEL PERFECT</span>
-					<br>
-					<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti
-					<img src="materiales\images\ser3.png" alt="icono corazon"></p>
-				</article>
-				<br>
-				<article>
-					<img scr="materiales\images\iphone2.png" alt="iphone2">
-				</article>
-				<!--no se ve-->
-				<br>
-				<article>
-					<span>UNLIMITED COLORS</span>
-					<br>
-					<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti
-					<img src="materiales\images\ser1.png" alt="icono mira"></p>
-				</article>
-				<br>
-				<article>
-					<span>FEATURES</span>
-					<br>
-					<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti
-					<img src="materiales\images\ser1.png" alt="icono liston"></p>
-				</article>
-				<br>
-				<article>
-					<span>SUPPORT TODAY</span>
-					<br>
-					<p>Cras tempus orci masssa,in hedrerit mi egestas vitae class aptent taciti
-					<img src="materiales\images\ser1.png" alt="icono reloj"></p>
-				</article>
-	</section>
-	<br>
-	<br>
-	<br>
-	<section>
-		<img src="materiales\images\pricing-bg.jpg" alt="banner2" width="1200">
-		<h2>Pricing Tables</h2>
-		<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
-			<br>
-			<br>
-			<article>
-				<p>SMALL PACKAGE</p>
-				<p>$<span>15</span>.9</p>
-				<p>/month</p>
-				<table>
-				    <tr>
-				      <td>Hard Drive GB</td>
-				      <td>2</td>
-					</tr>
-				    <tr>
-				      <td>Tranfer GB</td>
-				      <td>1</td>
-				    </tr>
-				    <tr>
-				      <td>Data Bases</td>
-				      <td>1</td>
-				    </tr>
-				    <tr>
-				      <td>Dashboards</td>
-				      <td>1</td>
-				    </tr>
-				</table>
-				<br>
-				<br>
-				<a href="">SELECT PLAN</a>
-			</article>
-			<br>
-			<br>
-			<article>
-				<p>NORMAL PACKAGE</p>
-				<p>$<span>45</span>.9</p>
-				<p>/month</p>
-				<table>
-				    <tr>
-				      <td>Hard Drive GB</td>
-				      <td>5</td>
-					</tr>
-				    <tr>
-				      <td>Tranfer GB</td>
-				      <td>2</td>
-				    </tr>
-				    <tr>
-				      <td>Data Bases</td>
-				      <td>2</td>
-				    </tr>
-				    <tr>
-				      <td>Dashboards</td>
-				      <td>2</td>
-				    </tr>
-				</table>
-				<br>
-				<br>
-				<a href="">SELECT PLAN</a>
-			</article>
-			<br>
-			<br>
-			<article>
-				<p>BIG PACKAGE</p>
-				<p>$<span>95</span>.9</p>
-				<p>/month</p>
-				<table>
-				    <tr>
-				      <td>Hard Drive GB</td>
-				      <td>12</td>
-					</tr>
-				    <tr>
-				      <td>Tranfer GB</td>
-				      <td>5</td>
-				    </tr>
-				    <tr>
-				      <td>Data Bases</td>
-				      <td>5</td>
-				    </tr>
-				    <tr>
-				      <td>Dashboards</td>
-				      <td>5</td>
-				    </tr>
-				</table>
-				<br>
-				<br>
-				<a href="">SELECT PLAN</a>
-			</article>
-			<br>
-			<br>
-			<article>
-				<p>BIG PACKAGE</p>
-				<p>$<span>115</span>.9</p>
-				<p>/month</p>
-				<table>
-				    <tr>
-				      <td>Hard Drive GB</td>
-				      <td>20</td>
-					</tr>
-				    <tr>
-				      <td>Tranfer GB</td>
-				      <td>20</td>
-				    </tr>
-				    <tr>
-				      <td>Data Bases</td>
-				      <td>20</td>
-				    </tr>
-				    <tr>
-				      <td>Dashboards</td>
-				      <td>20</td>
-				    </tr>
-				</table>
-				<br>
-				<br>
-				<a href="">SELECT PLAN</a>
-			</article>
 	</section>
 	<br>
 	<br>
 	<footer>
-		<article>
+		<article class="footer-color1">
 			<h3>Hoosting use <span>500,000</span> happy customers. Want to see servises?</h3>
 	 	</article>	
-		<article>
-			<small> c 2015 Coderland. All right reserved.</small>
-			<nav>
+		<article class="footer-color2">
+			<p><small> c 2015 Coderland. All right reserved.</small></p>
+			<nav class="menu-final">
 				<ul>
 					<li>
-						<a href=""><small>Home</samll></a>
+						<a href=""><small>Home</small></a>
 					</li>
 					<li>
 						<a href=""><small>Contact</small></a>
 					</li>
 				</ul>
 			</nav>
+			<!--podria no ser un nav, por un tema semantico y armarlo con articles y a href-->
 		</article>
 	</footer>
 </body>

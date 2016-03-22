@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+/*font-family: 'Raleway', sans-serif;*//*todos los h*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*font-family: 'Open Sans', sans-serif;*//*todos los textos*/
+
+a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: "200";
+}
+
+ul{
+	list-style: none;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrappper h3{
+	color: white;
+}
+/*header*/
+.menu-inicial{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+/*/header*/
+
+/*contenedor inicial*/
+.contenedor-inicial{
+	background: url(../materiales/images/indexbanner-bg3.jpg) no-repeat center top;
+}
+
+.updates {
+	color: white;
+	background-position: bottom left;
+}
+
+.servicios-destacos h2{
+	font-size: 15px;
+}
+
+.servicios-destacos p{
+	font-size: 10px;
+}
+.servicios-destacos article{
+	text-align: center;
+}
+
+.services h2{
+	text-align: center;
+}
+
+.services span{
+	text-align: center;
+}
+
+.tabla-precios{
+	background: url(../materiales/images/pricing-bg.jpg) no-repeat center top;
+	text-align: center;
+}
+
+.tabla-precios .tabla table{
+	position: center;
+}
+/*
+.tabla table{
+	position: ;
+}
+posicion relacionada al texto contenedor*/
+
+.tabla{
+	text-align: center
+}
+
+/*FOOTER*/
+.footer-color1{
+	background-color: rgb(35,49,65);
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+.footer-color1 span{
+	color: rgb(0,173,240);
+}
+
+.footer-color2{
+	background-color: rgb(21,29,38);
+	color: white;
+}
+
+.menu-final{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+
